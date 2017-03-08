@@ -9,15 +9,15 @@ new sequence({
     speedRear: 30,  // 后退速度
     x: 0,  // canvar-X
     y: 0,  // canvar-Y
-    width: 640,  // 后退速度
-    height: 1039,  // 后退速度
+    width: 640,  // 画布宽
+    height: 1039,  // 画布高
     saveUrl: [
         {src:'images/sequence/v10006.png'},
         {src:'images/sequence/v10007.png'},
         {src:'images/sequence/v10008.png'},
         {src:'images/sequence/v10009.png'},
         {src:'images/sequence/v10010.png'}
-    ],  // 选择按钮
+    ], // 序列帧
 }, function(){
     alert("结束");
 });
